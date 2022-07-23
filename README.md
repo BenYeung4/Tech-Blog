@@ -48,6 +48,12 @@ then under package.json, set your scripts/test to be under jest, seen below:
 "scripts": {
 "test": "jest",
 
+if running on local computer rather than server,create .env file and enter the following:
+
+DB_NAME ='THE DATABASE NAME YOU WANT TO NAME IT'
+DB_USER ='YOUR MYSQL USER NAME'
+DB_PASSWORD ='YOUR PASSWORD FOR MYSQL'
+
 ## Usage:
 
 Run the following at the root of the project:
