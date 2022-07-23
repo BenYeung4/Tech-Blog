@@ -70,6 +70,12 @@ quit
 
 npm start
 
+OR
+
+go to the website below that has been uploaded to heroku
+
+https://tech-blogger1.herokuapp.com/
+
 ## Contributing
 
 none
