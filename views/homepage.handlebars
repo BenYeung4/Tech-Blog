@@ -1,0 +1,13 @@
+{{!home page content that we are using the home-routes.js}}
+{{!content {}is from the info we recieved in confrollers/home-route.js}}
+{{!#each at the beginning and at the end of the loop.  this means any HTML code in between will be reapated for every item in posts}}
+
+{{!we moved everything to the post-info.handlebar so it is partial and easer for components to extract}}
+<ol class="post-list">
+  {{#each posts as |post|}}
+  <li>
+    {{! the > brings in from the /partial/post-info.handlebar}}
+    {{> post-info post }}
+  </li>
+  {{/each}}
+</ol>

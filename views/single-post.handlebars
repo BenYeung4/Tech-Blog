@@ -1,0 +1,25 @@
+{{!single post template }}
+
+{{> post-info post}}
+
+{{!the if statment is used, so that the comments can only be seen if logged in, this statement goes ith  home-routes.js under .get('/post/:id')}}
+{{#if loggedIn}}
+<form class="comment-form">
+  <div>
+    <textarea name="comment-body"></textarea>
+  </div>
+
+  <div>
+    <button type="submit">add comment</button>
+  </div>
+</form>
+{{/if}}
+
+{{! the > sign brings in the /partials/comments.handlebar file}}
+{{> comments post.comments}}
+
+{{!uses the javascript comment and upvotes}}
+{{!will show if logged in}}
+{{#if loggedIn}}
+<script src="/javascript/comment.js"></script>
+{{/if}}
