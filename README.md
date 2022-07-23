@@ -1,5 +1,7 @@
 # Tech-Blog
 
+![Capture](https://user-images.githubusercontent.com/52897163/180593388-89c2b6c7-0f4a-4251-a224-3ef826234444.JPG)
+
 ## Description
 
 AS A developer who writes about tech
